@@ -1,0 +1,172 @@
+
+body{
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: #ffff;
+}
+h1{
+    font-family: "Wordle"; 
+    src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+    font-size:49px;
+    text-align:center;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Wordle"; 
+    src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+  }
+.linha1{
+    top: 90px;
+    position:relative;
+    text-align: center;
+    margin: 1px;
+}
+.quadrado{
+    color: #fffcfc;
+    background: #787c7e;
+    margin: 1px;
+    font-size: 40px;
+    height: 40px;
+    border: 2px solid #9c9797;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    padding: 15px;
+}
+.quadrado4 {
+    color: #fffcfc;
+    margin: 2px;
+    font-size: 42px;
+    background: #6aaa64;
+    border:2px;
+    padding: 17px;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+.quadrado1{
+    text-align: center;
+    display:inline-block;
+    font-size:42px;
+    margin: 2px;
+    border: 2px;
+    color: #fff;
+    background: #c9b458;
+    padding:17px;
+    height: 40px;
+    width:40px;
+}
+.vazios1{
+    text-align: center;
+    top:89px;
+    position: relative;
+    margin: 1px;
+}
+.vazios{
+    text-align: center;
+    top:84px;
+    position: relative;
+    margin: 5px 0px;
+}
+.quadradov{
+    font-size: 40px;
+    text-align: center;
+    top: 10px;
+    position: relative;
+    display:inline-block;
+    border: 2px solid #000;
+    margin: 2px;
+    padding: 15px;
+    height: 40px;
+    width:39px;
+    font-weight: bold;
+}
+.quadrados{
+    font-size:20px;
+    text-align:center;
+    display: inline-block;
+    top: 18px;
+    position:relative;
+    margin: 2px;
+    border: 2px solid #d0bebe;
+    width:39px;
+    height:40px;
+    padding: 15px;
+}
+.quadradost{
+    font-size:13.333px;
+    font-weight: bold;
+    text-align:center;
+    display: inline-block;
+    top: 0px;
+    position:relative;
+    margin: 2px;
+    border: 0px solid #9c9797;
+    width:49px;
+    height:48px;
+    padding-top: 30px;
+    border-radius:14px;
+}
+.todos{
+    text-align: center;
+    position:relative;
+    top: 280px;
+}
+
+.teclado{
+    margin-top:-5px;
+    padding:5px;
+    border: 0px none #9c9797;
+    border-radius:20px;
+    
+}
+.teclado3{
+    margin-top:-28px;
+    padding:5px;
+
+}
+#enter{
+    background-color:#d3d6da;
+    font-size: 10px;
+    text-align: center;
+    width:80px;
+    position:relative;
+    top: 17px;
+    height: 50px;
+    right:1px;
+}
+#bs {
+    background-color: #d3d6da;
+    text-align: center;
+    width: 80px;
+    top:27px;
+    position:relative;
+    left:1px;
+    height: 45px;
+}
+h2{
+    font-size:18px;
+    position:relative;
+    top:-15px;
+}
+img{
+    position:relative;
+    right:4px;
+    top:-10px;
+}
+#verde{
+    color:#fff;
+    background-color: #6aaa64;
+}
+#mostarda{
+    color: #fff;
+    background-color: #c9b458;
+}
+#cinzc{
+    background-color:#d3d6da;
+}
+#cinze{
+    color:#fff;
+    background-color:#787c7e;
+}
